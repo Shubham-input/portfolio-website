@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shubham Gupta — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <header id="nav" class="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo"
+          ><img src="images/pixel-art.jpg" alt="Shubham Gupta"
+        /></a>
+        <nav class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-social">
+          <a
+            href="#"
+            class="nav-icon-btn"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+            target="_blank"
+            rel="noopener"
+            ><img src="images/logo-linkedin.png" alt=""
+          /></a>
+          <a
+            href="#"
+            class="nav-icon-btn"
+            aria-label="GitHub"
+            title="GitHub"
+            target="_blank"
+            rel="noopener"
+            ><img src="images/logo-github.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <h1 class="hero-headline">
+          Hi, I'm
+          <img
+            class="hero-avatar"
+            src="images/pixel-art.jpg"
+            alt="Pixel art avatar of Shubham"
+          />
+          Shubham — I like to turn random Ideas into
+          <span class="accent">working products</span>.
+        </h1>
+        <p class="hero-subhead">CS undergrad building full-stack projects.</p>
+        <div class="hero-badges">
+          <span class="badge"
+            ><span class="dot dot--accent"></span>CS Undergrad @ UTA</span
+          >
+          <span class="badge"
+            ><span class="dot dot--orange"></span>Arlington, TX</span
+          >
+        </div>
+      </section>
+
+      <!-- Selected Work (flagship project cards) -->
+      <section id="work" class="section">
+        <div class="section-header">
+          <h2>Selected Work</h2>
+          <span class="script-accent script-accent--work"
+            >my favorite projects &darr;</span
+          >
+        </div>
+
+        <div class="project-cards">
+          <article class="project-card project-card--theme1">
+            <svg
+              class="sparkle sparkle--br"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"
+              />
+            </svg>
+            <div class="project-card-inner">
+              <div class="project-card-content">
+                <span class="status-tag status-tag--progress">IN PROGRESS</span>
+                <span class="category-pill"
+                  >FULL STACK • REVIEW PLATFORM • 0 TO 1</span
+                >
+                <h3>BugHouse Reviews</h3>
+                <p>
+                  A lightweight review platform for BugHouse students to rate
+                  sessions and track progress over time, built to replace a
+                  spreadsheet-based workflow.
+                </p>
+                <a
+                  href="#"
+                  class="card-github-link"
+                  target="_blank"
+                  rel="noopener"
+                  ><img src="images/logo-github.svg" alt="" /> View on GitHub</a
+                >
+              </div>
+              <div class="project-visual">
+                <svg
+                  class="visual-placeholder"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="4"
+                    y="4"
+                    width="40"
+                    height="40"
+                    rx="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle cx="16" cy="16" r="3.5" fill="currentColor" />
+                  <path
+                    d="M6 34 L18 22 L26 30 L34 20 L42 30"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--theme3">
+            <svg
+              class="sparkle sparkle--tl"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"
+              />
+            </svg>
+            <div class="project-card-inner">
+              <div class="project-card-content">
+                <span class="status-tag status-tag--live">LIVE PROJECT</span>
+                <span class="category-pill"
+                  >FULL STACK • DASHBOARD • CRUD APP</span
+                >
+                <h3>Productivity Dashboard</h3>
+                <p>
+                  A personal dashboard for tracking daily tasks, habits, and
+                  goals in one place, with a focus on quick entry and a clean
+                  weekly overview.
+                </p>
+                <a
+                  href="#"
+                  class="card-github-link"
+                  target="_blank"
+                  rel="noopener"
+                  ><img src="images/logo-github.svg" alt="" /> View on GitHub</a
+                >
+              </div>
+              <div class="project-visual">
+                <svg
+                  class="visual-placeholder"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="4"
+                    y="4"
+                    width="40"
+                    height="40"
+                    rx="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle cx="16" cy="16" r="3.5" fill="currentColor" />
+                  <path
+                    d="M6 34 L18 22 L26 30 L34 20 L42 30"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--theme2">
+            <svg
+              class="sparkle sparkle--bl"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"
+              />
+            </svg>
+            <div class="project-card-inner">
+              <div class="project-card-content">
+                <span class="status-tag status-tag--award"
+                  >FLAGSHIP PROJECT</span
+                >
+                <span class="category-pill">FULL STACK • GAME • 0 TO 1</span>
+                <h3>Brain Teaser App</h3>
+                <p>
+                  A daily brain-teaser and puzzle app with streak tracking and
+                  difficulty levels, designed to make a five-minute mental
+                  warm-up something people come back to.
+                </p>
+                <a
+                  href="#"
+                  class="card-github-link"
+                  target="_blank"
+                  rel="noopener"
+                  ><img src="images/logo-github.svg" alt="" /> View on GitHub</a
+                >
+              </div>
+              <div class="project-visual">
+                <svg
+                  class="visual-placeholder"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="4"
+                    y="4"
+                    width="40"
+                    height="40"
+                    rx="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <circle cx="16" cy="16" r="3.5" fill="currentColor" />
+                  <path
+                    d="M6 34 L18 22 L26 30 L34 20 L42 30"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Course Projects grid -->
+      <section id="course-projects" class="section">
+        <div class="section-header">
+          <h2>Course Projects</h2>
+          <a href="#" class="grid-link">All repos &rarr;</a>
+        </div>
+
+        <div id="project-grid" class="project-grid"></div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <span class="script-accent script-accent--about"
+            >The person behind the pixels</span
+          >
+        </div>
+
+        <div class="about-columns">
+          <div class="about-left">
+            <div class="polaroid-wrap">
+              <div class="washi-tape">
+                <svg viewBox="0 0 16 16" class="smiley">
+                  <circle
+                    cx="8"
+                    cy="8"
+                    r="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  />
+                  <circle cx="5.5" cy="7" r="0.6" fill="currentColor" />
+                  <circle cx="10.5" cy="7" r="0.6" fill="currentColor" />
+                  <path
+                    d="M5 9.5 Q8 11.5 11 9.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <svg viewBox="0 0 16 16" class="smiley">
+                  <circle
+                    cx="8"
+                    cy="8"
+                    r="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  />
+                  <circle cx="5.5" cy="7" r="0.6" fill="currentColor" />
+                  <circle cx="10.5" cy="7" r="0.6" fill="currentColor" />
+                  <path
+                    d="M5 9.5 Q8 11.5 11 9.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <svg viewBox="0 0 16 16" class="smiley">
+                  <circle
+                    cx="8"
+                    cy="8"
+                    r="6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  />
+                  <circle cx="5.5" cy="7" r="0.6" fill="currentColor" />
+                  <circle cx="10.5" cy="7" r="0.6" fill="currentColor" />
+                  <path
+                    d="M5 9.5 Q8 11.5 11 9.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <div class="polaroid">
+                <img
+                  class="polaroid-photo"
+                  src="images/headshot.jpg"
+                  alt="Headshot of Shubham Gupta"
+                />
+              </div>
+            </div>
+            <p class="label">MY TOOL STACK</p>
+            <div class="tool-icons">
+              <span
+                class="tool-icon tool-icon--react"
+                role="img"
+                aria-label="React"
+                title="React"
+              >
+                <img src="images/logo-react.png" alt="React" />
+              </span>
+              <span
+                class="tool-icon tool-icon--node"
+                role="img"
+                aria-label="Node.js"
+                title="Node.js"
+              >
+                <img src="images/logo-node.png" alt="Node.js" />
+              </span>
+              <span
+                class="tool-icon tool-icon--ts"
+                role="img"
+                aria-label="TypeScript"
+                title="TypeScript"
+              >
+                <img src="images/logo-ts.png" alt="TypeScript" />
+              </span>
+              <span
+                class="tool-icon tool-icon--mongo"
+                role="img"
+                aria-label="MongoDB"
+                title="MongoDB"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2c0 0-5.5 6-5.5 11.5a5.5 5.5 0 0 0 5 5.48V22h1v-3.02a5.5 5.5 0 0 0 5-5.48C17.5 8 12 2 12 2z"
+                    fill="#ffffff"
+                  />
+                </svg>
+              </span>
+              <span
+                class="tool-icon tool-icon--sql"
+                role="img"
+                aria-label="SQL"
+                title="SQL"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="1.5"
+                >
+                  <ellipse cx="12" cy="5" rx="7" ry="2.5" />
+                  <path d="M5 5v6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V5" />
+                  <path d="M5 11v6c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-6" />
+                </svg>
+              </span>
+              <span
+                class="tool-icon tool-icon--html"
+                role="img"
+                aria-label="HTML5"
+                title="HTML5"
+              >
+                <img src="images/logo-html.png" alt="HTML5" />
+              </span>
+              <span
+                class="tool-icon tool-icon--css"
+                role="img"
+                aria-label="CSS3"
+                title="CSS3"
+              >
+                <img src="images/logo-css.png" alt="CSS3" />
+              </span>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <h3>From Coursework &rarr; Full-Stack Engineer</h3>
+            <p>
+              I'm a Computer Science student at UT Arlington who likes turning
+              ideas into working software — from small course assignments to
+              full-stack apps built outside of class. I care more about writing
+              code that's clean and actually ships than code that just runs once
+              and gets forgotten.
+            </p>
+            <p>
+              Outside of coursework, I tutor at BugHouse, which has pushed me to
+              get better at explaining technical ideas simply — a skill that
+              carries over directly into writing clearer code and documentation.
+              Right now I'm focused on building a handful of full-stack projects
+              to get ready for SWE internship recruiting.
+            </p>
+
+            <p class="label">EXPERIENCE</p>
+            <div class="experience-list">
+              <div class="experience-item">
+                <div>
+                  <p class="company">BugHouse</p>
+                  <p class="role">Peer Tutor</p>
+                  <p class="dates">Ongoing</p>
+                </div>
+                <span class="expand" aria-hidden="true">+</span>
+              </div>
+              <div class="experience-item">
+                <div>
+                  <p class="company">Self-Directed Projects</p>
+                  <p class="role">Full-Stack Developer</p>
+                  <p class="dates">Ongoing</p>
+                </div>
+                <span class="expand" aria-hidden="true">+</span>
+              </div>
+              <div class="experience-item">
+                <div>
+                  <p class="company">University of Texas at Arlington</p>
+                  <p class="role">B.S. Computer Science</p>
+                  <p class="dates">In progress</p>
+                </div>
+                <span class="expand" aria-hidden="true">+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="footer-inner">
+        <div class="footer-row">
+          <span class="footer-label">Mail</span>
+          <a href="mailto:guptashubham.personal@gmail.com" class="footer-link"
+            >guptashubham.personal@gmail.com</a
+          >
+        </div>
+        <div class="footer-row">
+          <span class="footer-label">Socials</span>
+          <div class="footer-row-links">
+            <a href="#" class="footer-link" target="_blank" rel="noopener"
+              >LinkedIn</a
+            >
+            <span class="footer-dot" aria-hidden="true">&bull;</span>
+            <a href="#" class="footer-link" target="_blank" rel="noopener"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="footer-row">
+          <span class="footer-label">Resume</span>
+          <a href="#" class="footer-link" target="_blank" rel="noopener"
+            >View PDF <span aria-hidden="true">&#8599;</span></a
+          >
+        </div>
+      </div>
+      <p class="footer-credit">Designed &amp; built by Shubham Gupta.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
