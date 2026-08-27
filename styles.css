@@ -458,6 +458,20 @@ button:focus-visible {
   color: var(--color-border);
 }
 
+.project-visual--image {
+  align-self: center;
+  min-height: 0;
+  background: none;
+  border: none;
+}
+
+.project-visual-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-card-sm);
+}
+
 .sparkle {
   position: absolute;
   width: 44px;
