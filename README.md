@@ -1,8 +1,8 @@
 # Portfolio Website
 
-Shubham Gupta's personal portfolio — a single-page site styled as a classroom, scrolling from a chalkboard hero through a notebook-page bio, a corkboard of projects, a skills banner, and a hall-pass contact card.
+My personal portfolio — a single-page site styled as a classroom, scrolling from a chalkboard hero through a notebook-page bio, a corkboard of projects, a skills banner, and a hall-pass contact card.
 
-Plain HTML, CSS, and JS — no frameworks, no build step.
+Built with plain HTML, CSS, and JS — no frameworks, no build step.
 
 ## Structure
 
